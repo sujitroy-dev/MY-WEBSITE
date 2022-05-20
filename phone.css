@@ -1,0 +1,147 @@
+/* html,
+body {
+  overflow-x: hidden;
+} */
+/* table and ipads */
+@media only screen and (max-width: 834px) {
+  /* home section starts here */
+  .home-container {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 0;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .info-container {
+    width: 100vw;
+    align-items: center;
+  }
+  .info-container span h3 {
+    margin-top: 31px;
+  }
+  .home-action-container {
+    margin-top: 30px;
+  }
+  #down-icon {
+    margin-bottom: -40px;
+  }
+  /* home section ends here */
+  /* about section starts here */
+  .about-container {
+    max-width: 100vw;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-info-container {
+    padding: 0 99px;
+  }
+  .portfolio-container {
+    max-width: 100vw;
+  }
+  /* about section ends here */
+
+  /* contact section starts here */
+  .portfolio-container {
+    min-height: 0;
+  }
+  /* conatct section ends here */
+}
+
+/* phones */
+@media only screen and (max-width: 414px) {
+  /* home section starts here */
+  #home {
+    margin-bottom: 0;
+  }
+  .image-container img {
+    width: 174px;
+  }
+  .info-container span h3 {
+    font-size: 1.3rem;
+  }
+  .name-container h1 {
+    font-size: 4rem;
+    -webkit-text-stroke: 2px #fff;
+  }
+  .profession-container h2 {
+    font-size: 1.4rem;
+  }
+  .home-action-container {
+    margin-top: 0;
+  }
+  .home-action-container button {
+    font-size: 0.7rem;
+  }
+  .profession-container h2 {
+    height: auto;
+  }
+  .cursor {
+    height: 30px;
+    width: 3px;
+  }
+  .home-action-container {
+    margin-top: 40px;
+  }
+  /* home section ends here */
+
+  /* utility classes starts here */
+  .title {
+    width: 100vw;
+  }
+  .title h1 {
+    font-size: 5.5rem;
+  }
+  .title h2 {
+    font-size: 2rem;
+  }
+  /* utility classes ends here */
+
+  /* about section starts here */
+  #about-me {
+    padding: 0;
+    /* background-color: yellow; */
+  }
+  .about-container {
+    margin-top: 0;
+  }
+  .about-image-container img {
+    width: 100vw;
+    padding: 0 35px;
+  }
+  .about-info-container {
+    padding: 0 35px;
+  }
+  .about-info-column {
+    width: 100%;
+  }
+
+  /* about section ends here */
+
+  /* portfolio section starts here */
+  #portfolio {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .portfolio-container {
+    padding-top: 0;
+  }
+  /* portfolio section ends here */
+
+  /* conatct form section starts here */
+  #contact form {
+    width: 100vw;
+    padding: 0 16px;
+  }
+  form input, form textarea {
+      margin: 10px 5px;
+  }
+  /* contact form ends here */
+}

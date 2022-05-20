@@ -1,0 +1,56 @@
+const professionText = document.querySelector(".profession-container h2");
+let textContent = ["am", "I am a web developer", "I like to code"];
+let i = 0;
+let j = 0;
+let currentTextContent = [];
+
+function loop() {
+  if (i <= textContent.length) {
+    if (j < textContent[i].length) {
+        currentTextContent.push(textContent[i])
+      professionText.innerHTML = currentTextContent;
+      j++;
+      if (j == textContent[i].length) {
+        i++;
+        j = 0;
+        professionText.innerHTML = "";
+      }
+      if (i == textContent.length){
+          i = 0;
+      }
+    }
+  }
+
+  setTimeout(loop, 200);
+}
+loop();
+
+
+
+2nd loop
+
+const professionText = document.querySelector(".profession-container h2");
+let textContent = ["am", "I am a web developer", "I like to code"];
+let i = 0;
+let j = 0;
+let currentTextContent = [];
+
+function loop() {
+  if (i <= textContent.length) {
+    if (j < textContent[i].length) {
+      professionText.innerHTML += textContent[i][j];
+      j++;
+      if (j == textContent[i].length) {
+        i++;
+        j = 0;
+        professionText.innerHTML = "";
+      }
+      if (i == textContent.length){
+          i = 0;
+      }
+    }
+  }
+
+  setTimeout(loop, 200);
+}
+loop();
