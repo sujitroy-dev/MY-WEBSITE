@@ -136,6 +136,9 @@ body {
   /* portfolio section ends here */
 
   /* conatct form section starts here */
+  .contact-container {
+    margin-top: 0;
+  }
   #contact form {
     width: 100vw;
     padding: 0 16px;
