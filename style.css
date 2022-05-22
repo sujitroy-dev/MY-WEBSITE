@@ -95,7 +95,8 @@ body {
 .home-action-container {
   margin-top: 50px;
 }
-.home-action-container button {
+.home-action-container a {
+  text-decoration: none;
   background-color: transparent;
   color: #fff;
   font-size: 0.95rem;
