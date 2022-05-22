@@ -1,7 +1,7 @@
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 /* table and ipads */
 @media only screen and (max-width: 834px) {
   /* home section starts here */
@@ -39,24 +39,47 @@ body {
     max-width: 100vw;
     align-items: center;
     flex-direction: column;
+    padding: 0 65px;
+  }
+  .about-image-container {
+    width: 100%;
+  }
+  .about-image-container img {
+    width: 100%;
   }
   .about-info-container {
-    padding: 0 99px;
+    padding: 0;
   }
-  .about-info-container h2 {
-    font-size: 1.5rem;
+  /* about section ends here */
+
+  /* skills section starts here */
+  #skills h4 {
+    width: 100vw;
+  }
+  .skills-container{
+    width: 100%;
+  }
+
+  /* skills section ends here */
+
+  /* Portfolio section starts here */
+  .portfolio-container {
+    min-height: 0;
   }
   .portfolio-container {
     max-width: 100vw;
   }
-  /* about section ends here */
+  /* Portfolio section ends here */
 
   /* contact section starts here */
-  .portfolio-container {
-    min-height: 0;
-  }
+
   /* conatct section ends here */
 }
+
+
+
+/* ------------ PHONE ------------*/
+
 
 /* phones */
 @media only screen and (max-width: 414px) {
@@ -98,6 +121,7 @@ body {
   /* utility classes starts here */
   .title {
     width: 100vw;
+    height: 100px;
   }
   .title h1 {
     font-size: 4.7rem;
@@ -110,10 +134,16 @@ body {
   /* about section starts here */
   #about-me {
     padding: 0;
+    margin-bottom: 0;
     /* background-color: yellow; */
+  }
+  .about-title {
+    margin-top: 39px;
+    margin-bottom: 24px;
   }
   .about-container {
     margin-top: 0;
+    padding: 0;
   }
   .about-image-container img {
     width: 100vw;
@@ -122,16 +152,50 @@ body {
   .about-info-container {
     padding: 0 35px;
   }
+  .about-info-container h2 {
+    font-size: 1.5rem;
+  }
   .about-info-column {
     width: 100%;
   }
 
   /* about section ends here */
+  /* skills section starts here */
+  #skills{
+    padding-top: 0;
+  }
+  .skills-title {
+    margin-top: 63px;
+    margin-bottom: -4px;
+  }
+  .skills-container{
+    padding-top: 25px;
+  }
+  #skills h4{
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0 36px;
+  }
+  .skill{
+    /* background-color: green; */
+    width: 100px;
+    height: 100px;
+    margin: 18px 24px;
+  }
+  .skill img{
+    width: 70px;
+  }
+  
+  /* skills section ends here */
 
   /* portfolio section starts here */
   #portfolio {
     padding: 0;
     margin-bottom: 0;
+  }
+  .portfolio-title {
+    margin-top: 63px;
+    margin-bottom: 14px;
   }
   .portfolio-container {
     padding-top: 0;
@@ -142,12 +206,20 @@ body {
   .contact-container {
     margin-top: 0;
   }
+  #contact{
+    padding: 0;
+  }
+  .contact-title {
+    margin-top: 63px;
+    margin-bottom: 17px;
+  }
   #contact form {
     width: 100vw;
     padding: 0 16px;
   }
-  form input, form textarea {
-      margin: 10px 5px;
+  form input,
+  form textarea {
+    margin: 10px 5px;
   }
   /* contact form ends here */
 }

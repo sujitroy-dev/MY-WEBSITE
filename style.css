@@ -199,17 +199,29 @@ body {
 /* about section ends here */
 
 /* skills section starts here */
-/* #skills {
+#skills {
   width: 100%;
   min-height: 100vh;
   padding-top: 50px;
+}
+#skills h4 {
+  text-align: center;
+  word-spacing: 2px;
+  line-height: 27px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #6c757d;
+  width: 1140px;
+  margin: auto;
 }
 .skills-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 33px;
+  padding-top: 50px;
+  width: 1140px;
+  margin: auto;
 }
 .skill {
   width: 150px;
@@ -220,7 +232,8 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-} */
+}
+
 /* skills section ends here */
 
 /* portfolio section starts here */

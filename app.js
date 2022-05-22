@@ -36,7 +36,6 @@ function loop() {
 onload = loop();
 // typing animation ends here
 
-
 // freelance Status stying starts here
 const freelanceStatus = document.querySelector(
   ".about-info-column:last-child span"
