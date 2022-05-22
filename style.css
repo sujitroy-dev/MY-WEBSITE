@@ -190,7 +190,11 @@ body {
   border-radius: 5px;
 }
 .freelance-unavailable {
-  border: 2px solid red;
+  color: #fff;
+  background-color: red;
+  padding: 3px 18px;
+  font-size: 1rem;
+  border-radius: 5px;
 }
 .about-info-column a {
   text-decoration: none;
