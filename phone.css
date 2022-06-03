@@ -56,7 +56,7 @@ body {
   #skills h4 {
     width: 100vw;
   }
-  .skills-container{
+  .skills-container {
     width: 100%;
   }
 
@@ -76,10 +76,7 @@ body {
   /* conatct section ends here */
 }
 
-
-
 /* ------------ PHONE ------------*/
-
 
 /* phones */
 @media only screen and (max-width: 414px) {
@@ -161,31 +158,37 @@ body {
 
   /* about section ends here */
   /* skills section starts here */
-  #skills{
+  #skills {
     padding-top: 0;
   }
   .skills-title {
     margin-top: 63px;
     margin-bottom: -4px;
   }
-  .skills-container{
+  .skills-container {
     padding-top: 25px;
   }
-  #skills h4{
+  #skills h4 {
     font-size: 1.1rem;
     font-weight: 400;
     padding: 0 36px;
   }
-  .skill{
+  .skill {
     /* background-color: green; */
     width: 100px;
     height: 100px;
     margin: 18px 24px;
   }
-  .skill img{
+  .skill img {
     width: 70px;
+    height: 70px;
   }
-  
+
+  /* .skill img {
+    width: auto;
+    height: auto;
+  } */
+
   /* skills section ends here */
 
   /* portfolio section starts here */
@@ -206,7 +209,7 @@ body {
   .contact-container {
     margin-top: 0;
   }
-  #contact{
+  #contact {
     padding: 0;
   }
   .contact-title {

@@ -237,6 +237,10 @@ body {
   justify-content: center;
   border-radius: 20px;
 }
+.skill img {
+  width: 128px;
+  height: 128px;
+}
 
 /* skills section ends here */
 
