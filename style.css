@@ -219,13 +219,14 @@ body {
   margin: auto;
 }
 .skills-container {
+  max-width: 1140px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  width: 1140px;
-  margin: auto;
+  /* TODO: do the same thing using grid */
 }
 .skill {
   width: 150px;
@@ -251,13 +252,13 @@ body {
   margin-bottom: 50px;
 }
 .portfolio-container {
+  padding-top: 50px;
+  width: 1140px;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  padding-top: 50px;
-  width: 1140px;
-  margin: auto;
 }
 .project {
   width: 316px;
