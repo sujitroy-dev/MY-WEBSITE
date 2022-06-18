@@ -197,6 +197,10 @@ body {
   .portfolio-container {
     padding-top: 0;
   }
+
+.portfolio-container .project:last-child {
+  display: none;
+}
   /* portfolio section ends here */
 
   /* conatct form section starts here */
