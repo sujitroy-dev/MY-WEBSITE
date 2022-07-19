@@ -1,6 +1,6 @@
 // typing animation starts here
 const professionText = document.querySelector(".profession-container h2");
-let textContent = ["I am FrontEnd Developer ", "I like to code "];
+let textContent = ["I am a web Developer ", "I like to code "];
 let i = 0;
 let j = 0;
 let currentTextContent = [];
