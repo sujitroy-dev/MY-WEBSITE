@@ -313,10 +313,6 @@ body {
   position: relative;
 }
 
-.portfolio-container .project:last-child {
-  visibility: hidden;
-}
-
 .project img {
   width: 100%;
   height: 100%;
