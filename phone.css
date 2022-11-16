@@ -198,9 +198,12 @@ body {
     padding-top: 0;
   }
 
-.portfolio-container .project:last-child {
-  display: none;
-}
+  .portfolio-container .project {
+    box-shadow: rgb(149 157 165 / 20%) 0px 11px 20px;
+  }
+  .portfolio-container .project:last-child {
+    display: none;
+  }
   /* portfolio section ends here */
 
   /* conatct form section starts here */
