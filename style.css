@@ -192,7 +192,7 @@ body {
 
 .about-info-container p {
   word-spacing: 2px;
-  line-height: 27px;
+  line-height: 30px;
   font-size: 1.3rem;
   color: #6c757d;
   user-select: none;
@@ -297,13 +297,12 @@ body {
 }
 
 .portfolio-container {
-  padding-top: 50px;
-  width: 1140px;
+  padding-top: 22px;
+  max-width: 1140px;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 316px);
+  justify-content: space-around;
 }
 
 .project {

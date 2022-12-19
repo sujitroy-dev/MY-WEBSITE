@@ -31,7 +31,7 @@ body {
     margin-top: 30px;
   }
   #down-icon {
-    margin-bottom: -40px;
+    margin-bottom: -27px;
   }
   /* home section ends here */
   /* about section starts here */
@@ -50,6 +50,10 @@ body {
   .about-info-container {
     padding: 0;
   }
+  .about-info-container p {
+    line-height: 28px;
+    font-size: 1.2rem;
+  }
   /* about section ends here */
 
   /* skills section starts here */
@@ -63,12 +67,10 @@ body {
   /* skills section ends here */
 
   /* Portfolio section starts here */
-  .portfolio-container {
-    min-height: 0;
-  }
-  .portfolio-container {
+
+  /* .portfolio-container {
     max-width: 100vw;
-  }
+  } */
   /* Portfolio section ends here */
 
   /* contact section starts here */
@@ -83,9 +85,11 @@ body {
   /* home section starts here */
   #home {
     margin-bottom: 0;
+    display: block;
   }
   .image-container img {
     width: 174px;
+    margin-top: 150px;
   }
   .info-container span h3 {
     font-size: 1.3rem;
@@ -194,16 +198,19 @@ body {
     margin-top: 63px;
     margin-bottom: 14px;
   }
-  .portfolio-container {
+  /* .portfolio-container {
     padding-top: 0;
-  }
+  } */
 
-  .portfolio-container .project {
+   .portfolio-container .project {
     box-shadow: rgb(149 157 165 / 20%) 0px 11px 20px;
+    margin: 0;
+    margin-top: 25px;
   }
+  /*
   .portfolio-container .project:last-child {
     display: none;
-  }
+  } */
   /* portfolio section ends here */
 
   /* conatct form section starts here */
